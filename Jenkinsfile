@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/jaiswaladi246/Boardgame.git'
+                git branch: 'main', url: 'https://github.com/ManojKRISHNAPPA/shopping-cart.git'
             }
         }
 
